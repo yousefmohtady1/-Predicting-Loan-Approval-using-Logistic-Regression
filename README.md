@@ -68,7 +68,7 @@ Three logistic regression models were trained and evaluated:
 | ------- | --------- | ---------- | ---------- | ------ |
 | LR L1   | 79.49%    | **84.86%** | 0.8234     | ✓      |
 | LR L2   | 79.49%    | **84.86%** | 0.8228     | ✓      |
-| Best LR | 79.25%    | **84.86%** | **0.8262** | ⭐     |
+| Best LR | 79.25%    | **84.86%** | **0.8262** | ✓      |
 
 ### Confusion Matrix (All Models - Identical)
 
@@ -92,19 +92,19 @@ Yes            3      124
 
 ## 5. Key Findings
 
-### ✅ Strengths
+### Strengths
 
 - **High Test Accuracy**: 84.86% across all models
 - **Excellent Recall for Approvals**: 98% (identifies most valid loans)
 - **No Overfitting**: Training accuracy (≈79%) < Test accuracy
 - **Good AUC Score**: 0.82-0.83 indicates strong discrimination
 
-### ⚠️ Limitations
+### Limitations
 
 - **25 False Positives**: Approved loans that should be rejected
 - **3 False Negatives**: Rejected loans that should be approved
 
-### 🔍 Business Impact
+### Business Impact
 
 **Type I Error (False Positive)**: 25 cases
 
