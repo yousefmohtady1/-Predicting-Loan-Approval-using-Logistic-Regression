@@ -1,4 +1,4 @@
-# Loan Prediction Binary Classification Report
+# Loan Approval Prediction Report
 
 ## Executive Summary
 
